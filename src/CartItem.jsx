@@ -16,6 +16,7 @@ const CartItem = ({ onContinueShopping }) => {
 
             total += cost * quantity;
         });
+        
         return total;
     };
 
